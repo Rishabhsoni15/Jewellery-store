@@ -1,0 +1,59 @@
+{
+  "jewDetails": [
+    {
+      "label": "Product Name",
+      "name": "productname",
+      "fieldType": "text",
+      "required": true,
+      "column": 2,
+      "icon": "FaClipboardList"
+    },
+    {
+      "label": "Original Price",
+      "name": "originalPrice",
+      "fieldType": "text",
+      "column": 1,
+      "icon": "FaDollarSign"
+    },
+    {
+      "label": "Selling Price",
+      "name": "sellingPrice",
+      "fieldType": "text",
+      "required": true,
+      "column": 1,
+      "icon": "FaMoneyBillAlt"
+    },
+    {
+      "label": "Category",
+      "name": "category",
+      "fieldType": "dropdown",
+      "options": [
+        "Necklaces",
+        "Earing",
+        "Ring",
+        "Pendants",
+        "Bracelets",
+        "Bangles"
+      ],
+      "required": true,
+      "column": 1,
+      "icon": "FaCar"
+    },
+    {
+      "label": "Offer Type",
+      "name": "offerType",
+      "fieldType": "dropdown",
+      "column": 2,
+      "options": ["Small", "Medium", "Large"],
+      "icon": "FaTags"
+    },
+    {
+      "label": "Listing Description",
+      "name": "listingDescription",
+      "fieldType": "textarea",
+      "required": true,
+      "column": 2,
+      "icon": "FaFileAlt"
+    }
+  ]
+}
